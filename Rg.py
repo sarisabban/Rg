@@ -3,7 +3,7 @@
 import math , sys
 
 def Rg(filename):
-	''' Calculates the Radius of Gyration (Rg) of a protein given its .pdb structure file (adapted from the PyMol's script https://pymolwiki.org/index.php/Radius_of_gyration) '''
+	''' Calculates the Radius of Gyration (Rg) of a protein given its .pdb structure file (adapted from the PyMol script https://pymolwiki.org/index.php/Radius_of_gyration) '''
 	''' Returs the Rg integer value '''
 	coord = list()
 	mass = list()
