@@ -7,7 +7,7 @@ def Rg(filename):
 	''' Returs the Rg integer value '''
 	coord = list()
 	mass = list()
-	Structure = open('1.pdb' , 'r')
+	Structure = open(filename , 'r')
 	for line in Structure:
 		line = line.split()
 		x = float(line[6])
