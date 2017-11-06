@@ -9,6 +9,8 @@ This is a very small python script with a function that calculates the Radius of
 
 `grep ATOM FILENAME.pdb | awk '$1 == "ATOM" && $5 == "CHAIN"' > NEW_FILENAME.pdb`
 
-2. Run using the following command:
+**NOTE**: This command can sometimes chunk up and cut parts of the protein chain (this does not affect the Rg score), but the resultant structure should not be used blindly.
+
+2. Run Rg calculation using the following command:
 
 `python3 Rg.py NEW_FILENAME.pdb`
