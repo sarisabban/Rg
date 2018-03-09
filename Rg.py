@@ -24,6 +24,7 @@ def Rg(filename):
 			elif line[-1] == 'S':
 				mass.append(32.065)
 		except:
+			pass
 	xm = [(m * i , m * j , m * k) for (i , j , k) , m in zip(coord , mass)]
 	tmass = sum(mass)
 	rr = sum(mi * i + mj * j + mk * k for (i , j , k) , (mi , mj , mk) in zip(coord , xm))
