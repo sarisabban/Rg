@@ -7,7 +7,6 @@ def Rg(filename):
 	'''
 	Calculates the Radius of Gyration (Rg) of a protein given its .pdb 
 	structure file. Returns the Rg integer value in Angstrom.
-	(adapted from https://pymolwiki.org/index.php/Radius_of_gyration)
 	'''
 	coord = list()
 	mass = list()
