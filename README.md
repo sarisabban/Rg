@@ -7,4 +7,4 @@ This is a very small python script with a function that calculates the Radius of
 ## How To Use
 1. Run Rg calculation using the following command:
 
-`python Rg.py FILENAME.pdb`
+`python3 Rg.py FILENAME.pdb`
